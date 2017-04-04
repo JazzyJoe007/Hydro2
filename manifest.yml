@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: Hydro2
+  host: Hydro2
+  disk_quota: 1024M
+  services:
+  - Hydro2-cloudantNoSQLDB
+  - Hydro2-iotf-service
+  - availability-monitoring-auto
